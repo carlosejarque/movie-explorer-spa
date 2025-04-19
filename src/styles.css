@@ -151,6 +151,7 @@ body {
   .movie-title-detail {
     font-size: 2.5rem;
     margin-bottom: 10px;
+    color: white;
   }
   
   .movie-subinfo {
@@ -246,7 +247,34 @@ body {
   margin-top: 50px;
 }
   
-  .movie-info-extra p {
-    margin-bottom: 16px;
-  }
+.movie-info-extra p {
+  margin-bottom: 16px;
+}
   
+@media (max-width: 768px) {
+  .movie-bottom {
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 20px;
+  }
+
+  .movie-info-extra {
+    width: 100%;
+    margin-top: 0;
+    font-size: 0.9rem;
+    padding: 16px;
+  }
+
+  .cast-section {
+    padding: 20px;
+  }
+
+  .cast-list {
+    gap: 12px;
+  }
+
+  .cast-card {
+    width: 120px;
+  }
+}
+
