@@ -21,7 +21,6 @@ Aplicación web desarrollada con **React** y **React Router DOM** que permite ex
 
 1. Clona el repositorio:
 
-```bash
 git clone https://github.com/carlosejarque/movie-explorer-spa.git
 cd movie-explorer-spa
 
