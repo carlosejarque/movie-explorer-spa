@@ -17,7 +17,7 @@ Aplicación web desarrollada con **React** y **React Router DOM** que permite ex
 - CSS Modules (o el sistema de estilos que hayas usado)
 - API de [The Movie Database (TMDb)](https://www.themoviedb.org/documentation/api)
 
-## Demostracion
+## 🌐 Demo en producción
 
 https://movie-explorer-spa-carlosejarque.netlify.app/
 
