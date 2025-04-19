@@ -1,12 +1,34 @@
-# React + Vite
+# 🎬 Movie Explorer (SPA)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación web desarrollada con **React** y **React Router DOM** que permite explorar películas populares, consultar detalles y realizar búsquedas de títulos. Esta versión implementa una arquitectura **SPA (Single Page Application)**.
 
-Currently, two official plugins are available:
+## 🚀 Funcionalidades principales
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Página de inicio con las películas más populares
+- Página de detalles con información de cada película
+- Búsqueda por título de película
+- Navegación fluida entre rutas con React Router DOM
 
-## Expanding the ESLint configuration
+## 🧰 Tecnologías utilizadas
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- React Router DOM
+- Vite
+- CSS Modules (o el sistema de estilos que hayas usado)
+- API de [The Movie Database (TMDb)](https://www.themoviedb.org/documentation/api)
+
+## ⚙️ Instrucciones para ejecución
+
+1. Clona el repositorio:
+
+```bash
+git clone https://github.com/carlosejarque/movie-explorer-spa.git
+cd movie-explorer-spa
+
+2. Instala las dependencias
+
+npm install
+
+3. Ejecuta la aplicacion
+
+npm run dev
